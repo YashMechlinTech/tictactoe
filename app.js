@@ -48,13 +48,16 @@ const checkWinner = () => {
         if (pos1 == "X") {
           setTimeout("alert('player X is winner ');", 1);
           location.reload();
+          return
         } else {
           setTimeout("alert('player O is winner ');", 1);
           location.reload();
+          return
         }
       }
     }
   }
+
 };
 
 resetbutton.addEventListener("click", () => {
