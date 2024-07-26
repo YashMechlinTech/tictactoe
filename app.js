@@ -54,11 +54,13 @@ const checkWinner = () => {
           location.reload();
           return
         }
+
       }
+
     }
   }
-
 };
+
 
 resetbutton.addEventListener("click", () => {
   location.reload();
